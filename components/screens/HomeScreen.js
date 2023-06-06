@@ -14,7 +14,7 @@ export default function HomeScreen() {
 
     const config = {
         velocityThreshold: 0.3,
-        directionalOffsetThreshold: 80
+        directionalOffsetThreshold: 30
     };
     return (
         <GestureRecognizer

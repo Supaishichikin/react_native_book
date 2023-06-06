@@ -11,8 +11,8 @@ export default function CategoriesScreen() {
         }
     }
     const config = {
-        velocityThreshold: 0.3,
-        directionalOffsetThreshold: 80
+        velocityThreshold: 0.2,
+        directionalOffsetThreshold: 30
     };
     return (
         <GestureRecognizer
